@@ -1,0 +1,59 @@
+html {
+  background-color: #efffd9;
+}
+
+h1 {
+  color: white;
+  background-color: #749314;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper {
+  width: 80%;
+  padding: 10 2rem;
+  text-align: center;
+}
+
+.item {
+  width: 100%;
+  display: inline-block;
+  margin-top: 2rem;
+  filter: grayscale(100%);
+  shape-margin: 5rem;
+}
+
+.item:hover {
+  filter: grayscale(0);
+  box-shadow: 0 0.2rem 1.2rem #749314;
+}
+
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.polaroid > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2em;
+}
+
+.item {
+  width: 30%;
+  display: inline-block;
+  margin-top: 2rem;
+  filter: grayscale(100%);
+}
+
+/* colors */
+/* #1f1915 */
+/* #5f6b1e */
+/* #749314 */
+/* #efffd9 */
