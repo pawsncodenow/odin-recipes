@@ -1,55 +1,100 @@
 html {
   background-color: #efffd9;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a:link,
+a:visited {
+  color: #1f1915;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #749314;
 }
 
 h1 {
   color: white;
-  background-color: #749314;
+  background-color: #5f6b1e;
   text-align: center;
   font-weight: bold;
+  line-height: 3rem;
+  margin: 0;
 }
 
-.wrapper {
-  width: 80%;
-  padding: 10 2rem;
+.navbar {
+  overflow: hidden;
+  background-color: #1f1915;
+}
+
+.navbar a {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  text-indent: 2rem;
+  line-height: 2rem;
+  margin: 0;
+  padding: 1.2rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: white;
+  background-color: #749314;
+}
+
+.recipes {
+  width: 90%;
+  padding: -10% 5%;
   text-align: center;
+  margin: 1rem auto;
 }
 
 .item {
-  width: 100%;
   display: inline-block;
-  margin-top: 2rem;
-  filter: grayscale(100%);
-  shape-margin: 5rem;
+  width: 30%;
+  margin: 0 0.3rem;
+  vertical-align: middle;
 }
 
 .item:hover {
-  filter: grayscale(0);
   box-shadow: 0 0.2rem 1.2rem #749314;
 }
 
 .polaroid {
-  background: #fff;
+  background: white;
   padding: 1rem;
-  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0.1rem 0.5rem 1rem rgba(0, 0, 0, 0.4);
 }
 
 .polaroid > img {
   max-width: 100%;
+  margin-bottom: 5%;
   height: auto;
 }
 
 .caption {
-  font-size: 1.3rem;
+  font-weight: bold;
+  font-size: 1rem;
   text-align: center;
-  line-height: 2em;
+  line-height: auto;
 }
 
-.item {
-  width: 30%;
-  display: inline-block;
-  margin-top: 2rem;
-  filter: grayscale(100%);
+footer {
+  color: white;
+  background-color: #1f1915;
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+  line-height: 2rem;
+  margin: 0;
 }
 
 /* colors */
