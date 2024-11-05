@@ -20,9 +20,8 @@ a:hover {
   color: #749314;
 }
 
-h1 {
-  color: white;
-  background-color: #5f6b1e;
+.maintitle {
+  color: #5f6b1e;
   text-align: center;
   font-weight: bold;
   line-height: 3rem;
@@ -31,7 +30,8 @@ h1 {
 
 .navbar {
   overflow: hidden;
-  background-color: #1f1915;
+  background-color: #5f6b1e;
+  margin-bottom: 0.5rem;
 }
 
 .navbar a {
@@ -40,7 +40,6 @@ h1 {
   text-align: left;
   text-indent: 2rem;
   line-height: 2rem;
-  margin: 0;
   padding: 1.2rem;
   text-decoration: none;
 }
@@ -72,11 +71,12 @@ h1 {
   background: white;
   padding: 1rem;
   box-shadow: 0.1rem 0.5rem 1rem rgba(0, 0, 0, 0.4);
+  transform: rotate(-3deg);
 }
 
 .polaroid > img {
   max-width: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   height: auto;
 }
 
@@ -89,12 +89,56 @@ h1 {
 
 footer {
   color: white;
-  background-color: #1f1915;
+  background-color: #5f6b1e;
   font-size: 0.8rem;
   font-style: italic;
   text-align: center;
   line-height: 2rem;
-  margin: 0;
+  margin-top: 2rem;
+}
+
+.container {
+  display: block;
+  position: absolute;
+  margin: 0.5rem 3rem 0 3rem;
+}
+
+.title {
+  position: absolute;
+  background-color: #1f1915;
+  color: white;
+  margin: 15% 0 0 40%;
+  width: auto;
+  padding: 0 0.5rem;
+  box-shadow: 0.1rem 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.rounded {
+  position: relative;
+  float: left;
+  border-radius: 100rem;
+  width: 50%;
+  height: auto;
+  box-shadow: 0.1rem 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
+}
+
+.content {
+  display: block;
+  margin-top: 45%;
+  margin-left: 2rem;
+  width: 92%;
+}
+
+.ingredients {
+  display: inline-block;
+  background-color: #ffffff5a;
+  color: #1f1915;
+  border-radius: 2rem;
+  margin: 0 1rem;
+  padding: 0.8rem;
+  width: 45%;
+  vertical-align: middle;
+  box-shadow: 0.1rem 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
 }
 
 /* colors */
